@@ -20,7 +20,7 @@ def leer_datos():
     print("Leyendo datos ...")
     print("------------------")
 
-    with open('/workspace/ej-Archivos/assignments/00Archivos/data/personas.csv', 'r') as f:  
+    with open('assignments/00Archivos/data/personas.csv', 'r') as f:  
         for line in f:
             print("Leyendo..."+line)
 
